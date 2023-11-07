@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import FileReaderComponent from '../components/filereader';
 import OpenInformationComponent from '../components/informationComponent';
-import MapComponent from '../pages/mappageS'; // Import your MapComponent
+import MapComponent from '../pages/mappage'; // Import your MapComponent
 
 function Home() {
   const [fileContent, setFileContent] = useState(null);
